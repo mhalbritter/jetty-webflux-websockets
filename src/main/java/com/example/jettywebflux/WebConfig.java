@@ -21,7 +21,6 @@ class WebConfig {
         return new SimpleUrlHandlerMapping(map, order);
     }
 
-
     @Bean
     public WebSocketHandlerAdapter handlerAdapter() {
         return new WebSocketHandlerAdapter();
